@@ -1,0 +1,21 @@
+Que:
+	Given are 50,000 network packets with packet attributes and class name given in the Training Data Set, and Test Data Set for running your tests. Create an application in a language of your choice to use the Training Data Set to train your application to detect the class of the packets in the Test Data Set. Once complete, we will use another set of network packet data for which your application should detect the class of data packets we provide. The format of the training data set, test data set, and verification data set are the same. The application with the highest accuracy will win the prize.
+
+Score:
+	Accuracy of the algorithm
+Dataset:
+	Training Data Set - Training.csv
+	Test Data Set - Testing.csv
+	Data Set Info - DataInfo.txt
+	Inpput Dataset - Input.csv
+
+Input: Contains file with attributes of packets
+Output: Class of that packet
+
+Input:
+	0,tcp,name,REJ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,1,0,0,23,2,0.04,1,0.04,1,0,0,0.91,1
+	0,udp,private,SF,28,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,7,0,0,0,0,1,0,0,255,7,0.03,0.02,0.03,0,0,0,0,0
+
+Output:
+	ipsweep.
+	teardrop.
